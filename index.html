@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Ludo Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Ludo — Classic Board</h1>
+    </header>
+
+    <main>
+        <section id="hud">
+            <div id="currentPlayer">Current: <span id="player-name">Red</span></div>
+            <div id="dice-area">
+                <button id="rollDice">Roll Dice</button>
+                <div id="dice">—</div>
+            </div>
+            <div id="controls">
+                <button id="restart">Restart</button>
+                <div id="message" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <div id="board" aria-label="Ludo board"></div>
+    </main>
+
+    <footer>
+        <div style="display:flex;justify-content:center;gap:14px;align-items:center;flex-wrap:wrap;padding:12px 0;background:linear-gradient(90deg,#fff,#f7f9fc);box-shadow:0 -1px 0 rgba(0,0,0,0.02);">
+            <small>Made with HTML, CSS and Vanilla JavaScript — Professional Ludo UI</small>
+            <a href="support.html" style="color:#0b66ff;text-decoration:none;font-weight:600;">Support</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
